@@ -1,0 +1,129 @@
+body{
+    background-color: #fff;
+    font-family: "sans-serif";
+}
+
+.container{
+    height: 650px;
+    width: 600px;
+    background-color: rgb(58, 58, 231);
+    margin: auto;
+    margin-top: 20px;
+}
+h1{
+    background-color: #eee5e5;
+    width: 280px;
+    margin: auto;
+    letter-spacing: 2px;
+    position: relative;
+    border: 2px solid rgb(176, 149, 149);
+    box-shadow: 1px 1px 2px white;
+    font-weight: 100;
+    top: 18px;
+    text-align: center;
+}
+div{
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+}
+.choices{
+    position: relative;
+    top: 50px;
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+.paper{
+    background-image: url("https://www.shutterstock.com/image-vector/rock-paper-scissors-vector-eps10-260nw-718449904.jpg");
+    background-position: -428px -45px;
+}
+.rock{
+    background-image: url("https://www.shutterstock.com/image-vector/rock-paper-scissors-vector-eps10-260nw-718449904.jpg");
+    background-position: -28px -60px;
+}
+.scissor{
+    background-image: url("https://www.shutterstock.com/image-vector/rock-paper-scissors-vector-eps10-260nw-718449904.jpg");
+    background-position: -228px -38px;
+}
+
+.whowon{
+    position: relative;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    width: 400px;
+    top: 120px;
+    border-top: 2px solid rgb(176, 149, 149);
+    border-left: 2px solid rgb(176, 149, 149);
+    box-shadow: -3px -1px 1px white inset;
+    background-color: #fff;
+    height: 40px;
+    margin: auto;
+}
+
+.scoreboard{
+    height: 32px;
+    font-size: 28px;
+    width: 180px;
+    letter-spacing: 2px;
+    margin-top: 160px;
+}
+.players{
+    background-color: #eee5e5;
+    margin: auto;
+    position: relative;
+    border: 2px solid rgb(176, 149, 149);
+    box-shadow: 1px 1px 2px white;
+    font-weight: 100;
+    display: inline-block;
+    width: 65px;
+    text-align: center; 
+    top: 165px;
+    left: 120px;
+}
+.com{
+    left:340px
+}
+
+.scorecounters span{
+    position: relative;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    display: inline-block;
+    width: 65px;
+    border-top: 2px solid rgb(176, 149, 149);
+    border-left: 2px solid rgb(176, 149, 149);
+    box-shadow: -3px -1px 1px white inset;
+    background-color: #fff;
+    height: 45px;
+    margin: auto;
+    top: -22px;
+    left: 120px;
+}
+
+#com_count{
+    left: 342px;
+}
+
+button{
+    position: relative;
+    top: -82px;
+    font-size: large;
+    width: 128px;
+    left: calc(50% - 64px);
+    height: 45px;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
